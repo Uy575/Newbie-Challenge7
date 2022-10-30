@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: 1440px 437px;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.mainicon > img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+
+ 
+}
+
+.container{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.content{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+
+h2{
+    margin-top: 30px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+}
+
+button{
+    width: 247px;
+    height: 35px;
+    border-radius: 9px;
+    margin-top: -100px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 25px;
+    color: white;
+    font-size: 0.7rem;
+    background-color:hsl(245, 75%, 52%);
+    border-color: blue;
+}
+p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 10px;
+    color:hsl(224, 23%, 55%);
+    opacity: 0.7;
+}
+span{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 15px;
+}
+
+.musicicon{
+
+  margin-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+.paymentplan{
+    background-color: hsl(225, 100%, 98%);
+    width: 250px;
+    margin-left: 20px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.paymentplan > .annual{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+}
+
+.cancelorder{
+    text-align: center;
+    font-size: 0.7rem;
+    color:hsl(224, 23%, 55%);
+    opacity: 0.8;
+}
+
+.paymenttext h4{
+  position: relative;
+  top: 1rem;
+  right: 2.1rem;
+  padding-left: 2px;
+  padding-top: 5px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 900;
+
+  
+
+}
+
+.paymenttext span{
+    position: relative;
+    top: 1rem;
+    font-size: 0.8rem;
+    padding-left: 20px; 
+    font-family: 'Red Hat Display', sans-serif;
+    color:hsl(224, 23%, 55%);
+    opacity: 0.8;
+
+}
+.paymenttext a{
+    position: relative;
+    top: 0.5rem;
+    font-size: 0.8rem;
+    padding-left: 40px; 
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+
+@media (max-width:400px){
+     body{
+        background-size: 373px 379px;
+     }
+}
